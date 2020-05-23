@@ -2,12 +2,13 @@
 
 ## Install
 
-Add the "jekyll-strapi" gem to your Gemfile:
+This is a Custom Jekyll-strapi gem for Use in Jekyll version > 4.0.
+Since the Official jekyll-strapi gem has not been developed for the past 2 years. I Forked it and Made some Changes to Work with Latest Jekyll Versions.
 
+Add the following to your Gemfile:
 ```
-gem "jekyll-strapi"
+gem "jekyll-strapi", github:tks18/jekyll-strapi
 ```
-
 Then add "jekyll-strapi" to your plugins in `_config.yml`:
 
 ```
